@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*{margin: 0, padding: 0, border: 0;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Yeon+Sung&display=swap');
+@font-face {
+	font-family: 'Yeon Sung', cursive;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Formatação do plando de fundo*/
+body {
+	background-image: url("../Imagens/Plano_De_Fundo.jpg");
+	background-size: cover;
+	background-position: left;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+/*Formataçãodo Menu*/
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 20%;
+	right: 20%;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #818080;
+	padding: 4px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #d7d3d3;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: #ffffff;
+	font-size: 15pt;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #3a3737;
+}
+
+/*Formatação do cabeçalho*/
+header#Cabecalho {
+	display: block;
+	margin: auto;
+	border-bottom: 1px solid white;
+	width: 90vw;
+	height: 85px;
+}
+
+header#Cabecalho h1 {
+	position: relative;
+	top: 40px;
+	/*text-align: center;*/
+	font-family: 'Yeon Sung', cursive;
+	font-size: 38px;
+	color: white;
+}
+/* Formatação da Interface*/
+div#Interface {
+	width: 90vw;
+	margin: 40px auto 0px auto;
+	padding: 10px;
+}
+
+/* Formatação do Rodapé*/
+footer#Rodape {
+	clear: both;
+	border-top: 1px solid white;
+	width: 90vw;
+	margin: auto;
+}
+
+footer#Rodape p {
+	text-align: center;
+	}
+
+footer#Rodape a {
+	color: white;
+}
+
+/*Formatação de h1
+h1 {
+	font-family: 'Yeon Sung', cursive;
+	font-size: 38px;
+	color: white;
+}*/
+
+/*Formatação de imagens*/
+figure.Perfil img {
+	border: 10px solid white;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	box-shadow: 1px 1px 4px black;
+}
+
+#imagem {
+	float: right;
+	margin-left: 20px;
+}
+
+/*Formatação de paragrafos*/
+p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	text-indent: 50px;
+	/*font-family: Arial;*/
+	font-size: 15pt;
+	color: white;
+}
